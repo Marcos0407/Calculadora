@@ -1,0 +1,109 @@
+/** Formatação padrão do site **/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Roboto';
+    font-weight:400;
+}
+
+.clear {
+    clear:both;
+}
+
+.center {
+    width:100%;
+    max-width:1280px;
+    margin:0 auto;
+    padding:0 2%;
+}
+
+/** Fim das formatações padrões do site **/
+
+
+/** Formatação do main **/
+main {
+    width: 100%;
+    height: 100vh;
+}
+
+main .posicao {
+    margin: 100px auto;
+    width: 315px;
+}
+main .calculadora {
+    width: 100%;
+    height: auto;
+    padding: 10px 6px;
+    box-shadow: 4px 4px 4px #909090;
+    border: 1px solid #d0d0d0;
+}
+
+.calculadora .visor {
+    width: 98%;
+    height: 50px;
+    margin: 0 auto;
+    padding: 6px;
+    background-color: #8A55D3;
+}
+
+.calculadora .visor .form {
+    height: 100%;
+}
+
+.calculadora .visor .form #icones {
+    position: absolute;
+    z-index: 999;
+    margin: 10px 6px;
+    font-weight: bold;
+    color: #800080;
+}
+
+.calculadora .visor .campo {
+    width: 100%;
+    height: 100%;
+    border: none; 
+    opacity: 0.5;
+    color: #800080;
+    font-size: 20px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.calculadora .conteudo_number {
+    position: relative;
+    margin-top: 13px;
+    width: 98%;
+    height: auto;
+    padding: 8px;
+    background-color: #dedede;
+}
+
+.calculadora .conteudo_number .btn {
+    margin: 6px 0;
+    width: 52px;
+    height: 50px;
+    background-color: #BA55DE;
+    color: #ffffff;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.calculadora .conteudo_number .btn:hover {
+    background-color: #8B00b8;
+}
+
+.calculadora .conteudo_number .zero {
+    width: 108px;
+}
+
+.calculadora .conteudo_number .igual {
+    position: absolute;
+    height: 112px;
+    margin-left: 4px;
+}
+
+
